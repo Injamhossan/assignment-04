@@ -16,7 +16,6 @@ function isSame(arr1, arr2) {
     return true;
 }
 
-// Example usage:
 console.log(isSame([1, 2, 3] , [1, 2, 3]));
 console.log(isSame([34, 5, 7,9], [34, 5 , 7 ]));    
 console.log(isSame([1, undefined , 3] , [1,null ,3]));    
